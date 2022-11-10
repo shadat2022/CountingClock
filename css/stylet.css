@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+/* common css start*/
+
+nav.navbar,ol,ul,li,a,p,h1,h2,h3,h4,h5,h6,span{
+    margin: 0;
+    padding: 0;
+}
+
+
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+
+/* var start */
+:root{
+    --primary-color:#02918c;
+    --common-color:#7e8287;
+}
+/* var end */
+/* navBar start */
+
+nav.navbar{
+    background-color: var(--primary-color);
+}
+
+/* navBar end */
+
+/* banner start */
+.mainCntn{
+    background-image: url(../img/bg-stars.svg);
+    background-color: rgb(46, 15, 50);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 728px;
+    position: relative;
+}
+.mainCntn img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: -10px;
+}
+.mainCntn h2{
+    color: #fff;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.socialIcon{
+    margin-top: 180px;
+    position: relative;
+
+    
+}
+.socialIcon li:nth-of-type(2){
+    margin: 0 40px;
+}
+.socialIcon i{
+    
+    color: #fff;
+    padding: 10px;
+    font-size: 50px;
+}
+.socialIcon a:hover i{
+    color: #f362b2;
+    transition: .5s;
+}
